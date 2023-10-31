@@ -1,0 +1,6 @@
+{
+    "id": "sqlx-cli",
+    "version": "1.0.0",
+    "name": "TiamoP23 SQLx CLI",
+    "installsAfter": ["ghcr.io/tiamop23/devcontainer-features/rust"]
+}
