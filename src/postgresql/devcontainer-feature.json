@@ -1,6 +1,6 @@
 {
     "id": "postgresql",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "name": "TiamoP23 PostgreSQL",
     "options": {
         "version": {
