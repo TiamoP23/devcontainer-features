@@ -13,7 +13,7 @@
     "containerEnv": {
         "DATABASE_URL": "postgres://postgres@localhost:5432/postgres"
     },
-    "postStartCommand": "service postgresql start",
+    "postStartCommand": "sudo service postgresql start",
     "dependsOn": {
         "ghcr.io/itsmechlark/features/postgresql": {
             "version": "${VERSION}"
