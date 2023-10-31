@@ -1,19 +1,19 @@
 {
-    "id": "vue",
-    "version": "1.0.0",
-    "name": "TiamoP23 Vue",
-    "customizations": {
-        "vscode": {
-            "extensions": [
-                "Vue.volar",
-                "Vue.vscode-typescript-vue-plugin",
-                "cpreston321.nuxt-vscode"
-            ],
-            "settings": {
-                "vue.complete.casing.props": "kebab",
-                "vue.complete.casing.tags": "kebab"
-            }
-        }
-    },
-    "installsAfter": ["ghcr.io/tiamop23/devcontainer-features/nodejs"]
+  "id": "vue",
+  "version": "1.0.0",
+  "name": "TiamoP23 Vue",
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "Vue.volar",
+        "Vue.vscode-typescript-vue-plugin",
+        "cpreston321.nuxt-vscode"
+      ],
+      "settings": {
+        "vue.complete.casing.props": "kebab",
+        "vue.complete.casing.tags": "kebab"
+      }
+    }
+  },
+  "installsAfter": ["ghcr.io/tiamop23/devcontainer-features/nodejs"]
 }

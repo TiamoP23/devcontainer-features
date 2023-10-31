@@ -1,6 +1,10 @@
 {
-    "id": "sqlx-cli",
-    "version": "1.0.0",
-    "name": "TiamoP23 SQLx CLI",
-    "installsAfter": ["ghcr.io/tiamop23/devcontainer-features/rust"]
+  "id": "sqlx-cli",
+  "version": "1.0.1",
+  "name": "TiamoP23 SQLx CLI",
+  "postStartCommand": "sqlx migrate run",
+  "installsAfter": [
+    "ghcr.io/tiamop23/devcontainer-features/rust",
+    "ghcr.io/tiamop23/devcontainer-features/postgresql"
+  ]
 }
