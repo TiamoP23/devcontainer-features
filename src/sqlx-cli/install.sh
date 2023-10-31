@@ -1,1 +1,1 @@
-cargo install sqlx-cli
+su ${USERNAME} -c "cargo install sqlx-cli"
