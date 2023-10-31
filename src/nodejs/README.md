@@ -1,0 +1,34 @@
+
+# TiamoP23 NodeJS (nodejs)
+
+
+
+## Example Usage
+
+```json
+"features": {
+    "ghcr.io/TiamoP23/devcontainer-features/nodejs:1": {}
+}
+```
+
+## Options
+
+| Options Id | Description | Type | Default Value |
+|-----|-----|-----|-----|
+| version | Select or enter a Node.js version to install | string | lts |
+| nodeGypDependencies | Install dependencies to compile native node modules (node-gyp)? | boolean | true |
+| nvmInstallPath | The path where NVM will be installed. | string | /usr/local/share/nvm |
+| nvmVersion | Version of NVM to install. | string | latest |
+
+## Customizations
+
+### VS Code Extensions
+
+- `christian-kohler.npm-intellisense`
+- `dbaeumer.vscode-eslint`
+
+
+
+---
+
+_Note: This file was auto-generated from the [devcontainer-feature.json](https://github.com/TiamoP23/devcontainer-features/blob/main/src/nodejs/devcontainer-feature.json).  Add additional notes to a `NOTES.md`._
