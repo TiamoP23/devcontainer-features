@@ -1,1 +1,1 @@
-su ${USERNAME} -c "cargo install sqlx-cli"
+su ${USERNAME} -s /bin/bash  -c "cargo install sqlx-cli"
