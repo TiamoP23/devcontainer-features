@@ -1,1 +1,1 @@
-su -p ${USERNAME} -c "cargo install sqlx-cli"
+su -p ${_REMOTE_USER} -c "cargo install sqlx-cli"
