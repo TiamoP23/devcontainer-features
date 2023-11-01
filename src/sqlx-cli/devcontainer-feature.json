@@ -1,6 +1,6 @@
 {
   "id": "sqlx-cli",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "name": "TiamoP23 SQLx CLI",
   "postStartCommand": "sqlx migrate run",
   "installsAfter": [
